@@ -37,6 +37,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Mojolicious" : "0",
+            "Sys::Syslog" : "0",
             "perl" : "5.008005"
          }
       },
@@ -47,6 +49,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fayland/MojoX-Log-Syslog/issues"
+      },
+      "homepage" : "https://github.com/fayland/MojoX-Log-Syslog",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/fayland/MojoX-Log-Syslog.git",
+         "web" : "https://github.com/fayland/MojoX-Log-Syslog"
+      }
+   },
    "version" : "0.01"
 }
 
